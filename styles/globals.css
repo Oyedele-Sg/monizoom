@@ -1,0 +1,42 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input, textarea {
+  outline: none
+}
+
+button:focus {
+  outline: none !important
+}
+
+button:disabled {
+  cursor: not-allowed
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.ReactFlagsSelect-module_flagsSelect__2pfa2 {
+  width: 100%;  
+  padding-bottom: 0px !important
+}
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+  border: none !important
+}
+.ReactFlagsSelect-module_flagsSelect__2pfa2.disabled .ReactFlagsSelect-module_selectBtn__19wW7::after {
+  display: none !important
+}
+.ReactFlagsSelect-module_flagsSelect__2pfa2.disabled .ReactFlagsSelect-module_selectBtn__19wW7 {
+  cursor: default
+}
+.ReactFlagsSelect-module_disabledBtn__3A4GF {
+  background: transparent !important
+}

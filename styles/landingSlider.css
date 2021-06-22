@@ -1,0 +1,44 @@
+.slick-prev,
+.slick-next {
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.35s ease;
+  width: 45px;
+  height: 45px;
+}
+
+.slick-slider:hover .slick-prev,
+.slick-slider:hover .slick-next {
+  opacity: 1;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: #5acaef;
+}
+
+.slick-prev {
+  left: 25px;
+}
+@media only screen and (max-width: 600px) {
+  .slick-prev {    
+    display: none !important
+  }
+
+  .slick-next {    
+    display: none !important
+  }
+}
+
+.slick-next {
+  right: 25px;
+}
+
+.slick-dots {
+  bottom: 5px;
+}
+
+.slick-dots li button::before {
+  color: #5acaef !important;
+  font-size: 12px;
+}

@@ -1,0 +1,43 @@
+@layer base {
+  .btn {
+    @apply flex justify-center items-center rounded-md px-4
+  }
+  
+  .btn {
+    @apply bg-toneblue-300 text-white
+  }
+
+  .btn:hover {
+    @apply bg-toneblue-200
+  }
+
+  .btn:active {
+    @apply bg-toneblue-300
+  }
+
+  .btn:focus {
+    @apply bg-toneblue-300 border-2 border-toneblue-200 outline-none
+  }
+
+  .btn:disabled {
+    @apply bg-gray-500 cursor-not-allowed
+  }
+
+
+  .link {
+    @apply text-toneblue-300
+  }
+
+  .link:hover {
+    @apply text-toneblue-200 cursor-pointer
+  }
+
+  .link:active {
+    @apply text-toneblue-300
+  }
+
+  .link:focus {
+    @apply text-toneblue-400
+  }
+  
+}
